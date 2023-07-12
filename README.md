@@ -1,3 +1,39 @@
+# Carrito de Compra con Ajax, Laravel y jQuery
+
+![Logo de la aplicación](logo.png)
+
+Esta aplicación es un carrito de compra implementado utilizando la combinación de Ajax, Laravel y jQuery. Proporciona una interfaz fácil de usar para que los usuarios puedan seleccionar y comprar productos de una tienda en línea.
+
+## Características principales
+
+- **Agregado y eliminación de productos**: Los usuarios pueden agregar productos al carrito de compra y eliminarlos cuando sea necesario.
+- **Actualización en tiempo real**: La aplicación utiliza Ajax para actualizar el carrito de compra en tiempo real sin necesidad de recargar la página.
+- **Funcionalidad de búsqueda**: Los usuarios pueden buscar productos por nombre o categoría para encontrar rápidamente lo que desean comprar.
+- **Proceso de pago**: El carrito de compra permite a los usuarios completar el proceso de pago de manera segura y eficiente.
+- **Autenticación de usuarios**: Los usuarios pueden registrarse, iniciar sesión y gestionar su cuenta para realizar un seguimiento de sus pedidos y detalles de pago.
+- **Administración de productos**: Los administradores pueden agregar, editar y eliminar productos desde el panel de administración de la aplicación.
+
+## Tecnologías utilizadas
+
+- **Laravel**: Un framework de desarrollo de aplicaciones web rápido y eficiente en PHP.
+- **jQuery**: Una biblioteca de JavaScript rápida y concisa que simplifica la manipulación del DOM y la interacción con el servidor.
+- **Ajax**: Una técnica de desarrollo web que permite realizar solicitudes asíncronas al servidor sin recargar la página completa.
+
+## Requisitos de instalación
+
+Asegúrate de tener los siguientes requisitos antes de instalar y ejecutar la aplicación:
+
+- PHP >= 7.4
+- Composer
+- Node.js
+- Laravel >= 8
+
+## Instalación
+
+1. Clona el repositorio en tu máquina local:
+
+´git clone https://github.com/ynvYauneEnovore/Shopping.git´
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
