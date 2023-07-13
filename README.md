@@ -32,7 +32,65 @@ Asegúrate de tener los siguientes requisitos antes de instalar y ejecutar la ap
 
 1. Clona el repositorio en tu máquina local:
 
-´git clone https://github.com/ynvYauneEnovore/Shopping.git´
+`git clone https://github.com/ynvYauneEnovore/Shopping.git`
+
+2. Navega hasta el directorio del proyecto:
+
+`cd Shopping`
+
+
+3. Instala las dependencias de PHP utilizando Composer:
+
+`composer install`
+
+
+4. Instala las dependencias de JavaScript utilizando npm:
+
+`npm install`
+
+
+5. Copia el archivo de configuración `.env.example` y renómbralo a `.env`. Luego, actualiza las variables de entorno según tu configuración.
+
+6. Genera una clave de aplicación única:
+
+`php artisan key:generate`
+
+
+7. Ejecuta las migraciones de la base de datos:
+
+`php artisan migrate`
+
+
+8. Inicia el servidor de desarrollo:
+
+`php artisan serve`
+
+
+9. Accede a la aplicación en tu navegador web en `http://localhost:8000`.
+
+## Contribución
+
+Si deseas contribuir a este proyecto, sigue los siguientes pasos:
+
+1. Haz un fork del repositorio.
+2. Crea una rama de características (`git checkout -b feature/nueva-caracteristica`).
+3. Realiza los cambios y haz commits de tus modificaciones (`git commit -am 'Agrega una nueva característica'`).
+4. Haz push a la rama (`git push origin feature/nueva-caracteristica`).
+5. Abre una solicitud de extracción en GitHub.
+
+## Licencia
+
+Este proyecto está bajo la Licencia [MIT](LICENSE).
+
+---
+
+¡Disfruta usando nuestro carrito de compra con Ajax, Laravel y jQuery! Si tienes alguna pregunta o sugerencia, no dudes en contactarnos.
+
+**Autores:**
+- Yovan Enovore ([@ynvYauneEnovore](https://github.com/ynvYauneEnovore))
+
+
+
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
